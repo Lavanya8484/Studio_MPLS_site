@@ -88,42 +88,238 @@
 .image-row-1:hover .hover-image {
   opacity: 1;
 }
+.image-row-12 {
+  margin-top: 20px;
+  position: relative;
+  right: 70px;
+}
+.hover-video {
+  height: 275px;
+  width: 500px;
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.image-row-12:hover .hover-video {
+  opacity: 1;
+  height: 275px;
+  width: 450px;
+}
 .i-r-12 {
   height: 275px;
   width: 450px;
 }
-.row-1-sec {
-  margin-right: 30px;
-}
-.image-row-2 {
+.image-container-2 {
   display: flex;
-  margin-top: 20px;
+  height: 700px;
+  width: 500px;
+  border: none;
 }
-.image-row-2 .i-r-13 {
+.image-row-13 .i-r-13 {
   height: 600px;
   width: 450px;
+  margin-top: 45px;
+  position: relative;
+  border: none;
 }
-.image-row-2 .i-r-14 {
+.image-row-13 {
+  display: flex;
+  position: relative;
+  border: none;
+}
+.hover-video-1 {
   height: 600px;
   width: 450px;
-  margin-top: -170px;
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border: none;
 }
-.image-row-3 {
+.image-row-13:hover .hover-video-1 {
+  opacity: 1;
+  height: 600px;
+  width: 450px;
+  margin-top: 45px;
+  object-fit: cover;
+}
+.image-row-14 {
   display: flex;
-  margin-top: 20px;
+  position: relative;
+  margin-left: -45px;
+  margin-top: -130px;
 }
-.image-row-3 .i-r-15 {
+.image-row-14 .i-r-14 {
+  height: 600px;
+  width: 450px;
+
+  position: relative;
+}
+.hover-image2 {
+  height: 600px;
+  width: 450px;
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.image-row-14:hover .hover-image2 {
+  opacity: 1;
+  height: 600px;
+  width: 450px;
+  object-fit: cover;
+}
+.image-container-3 {
+  display: flex;
   width: 450px;
   height: 320px;
+  margin-top: -30px;
+  border: none;
 }
-.image-row-3 .i-r-16 {
-  margin-top: -160px;
+.image-row-15 .i-r-15 {
   width: 450px;
+  height: 320px;
+  position: relative;
+  border: none;
 }
-.image-row-4 {
+.image-row-15 {
   display: flex;
-  margin-top: 30px;
+  position: relative;
+  border: none;
 }
-.image-row-4 img {
+.hover-image3 {
   width: 450px;
+  height: 320px;
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  border: none;
+}
+.image-row-15:hover .hover-image3 {
+  opacity: 1;
+  width: 450px;
+  height: 320px;
+  object-fit: cover;
+}
+.image-row-16 {
+  display: flex;
+  position: relative;
+  margin-top: -170px;
+  margin-left: -45px;
+}
+.image-row-16 .i-r-16 {
+  width: 450px;
+  height: 490px;
+  position: relative;
+}
+.hover-video-2 {
+  width: 450px;
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.image-row-16:hover .hover-video-2 {
+  opacity: 1;
+  width: 450px;
+  object-fit: cover;
+}
+.image-container-4 {
+  height: 350px;
+  width: 450px;
+  display: flex;
+}
+.i-r-17 {
+  height: 350px;
+  width: 450px;
+  position: relative;
+}
+.image-row-17 {
+  height: 350px;
+  margin-top: 20px;
+  display: flex;
+  position: relative;
+  object-fit: cover;
+}
+.hover-video-4 {
+  height: 350px;
+  width: 450px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  object-fit: cover;
+  transition: opacity 0.3s ease-in-out;
+}
+.image-row-17:hover .hover-video-4 {
+  opacity: 1;
+  object-fit: cover;
+}
+.i-r-18 {
+  height: 350px;
+  width: 450px;
+  position: relative;
+}
+.image-row-18 {
+  display: flex;
+  position: relative;
+  margin-left: -45px;
+  margin-top: 20px;
+}
+.hover-image6 {
+  height: 350px;
+  width: 450px;
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+.image-row-18:hover .hover-image6 {
+  opacity: 1;
+  height: 350px;
+  width: 450px;
+  object-fit: cover;
+}
+.view-more-sec {
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 28rem;
+}
+.view-more-sec h1 {
+  font-weight: 900;
+  font-size: 25px;
+}
+.arrow-image {
+  margin-top: 40px;
+  margin-left: -30px;
+}
+.view-more-sec :hover {
+  text-decoration: underline;
+}
+.process-container {
+  background-color: black;
+  margin-left: -75px;
+  margin-top: 90px;
+  position: absolute;
+}
+.process-container p {
+  background-color: black;
+  text-align: center;
+  font-size: 60px;
+  font-weight: 100;
 }
