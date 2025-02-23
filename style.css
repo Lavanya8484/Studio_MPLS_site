@@ -322,4 +322,48 @@
   text-align: center;
   font-size: 60px;
   font-weight: 100;
+  color: white;
+  left: 20px;
+  position: relative;
+  font-family: "Courier New", Courier, monospace;
+  top: 50px;
+}
+.head-container {
+  display: flex;
+  background-color: black;
+  color: white;
+  gap: 10rem;
+  position: relative;
+  top: 350px;
+  left: 0px;
+}
+.head-container .head-1 {
+  background-color: black;
+  margin-left: 100px;
+  position: relative;
+}
+.head-container .head-2 {
+  background-color: black;
+
+  position: relative;
+}
+.head-container .head-3 {
+  background-color: black;
+
+  position: relative;
+}
+.head-1 h1,
+p,
+.para {
+  background-color: transparent;
+}
+.head-2 h1,
+p,
+.para {
+  background-color: transparent;
+}
+.head-3 h1,
+p,
+.para {
+  background-color: transparent;
 }
